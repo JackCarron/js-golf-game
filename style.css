@@ -1,0 +1,20 @@
+html,body {
+    background: green;
+    padding: 0;
+    margin: 0;
+}
+
+.title-bar {
+    background: url(http://2.bp.blogspot.com/-Df3dFgbBOy8/VEYsmbjzC3I/AAAAAAAAAmw/60BYGW-3tRg/s1600/wood_texture.jpg);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100px;
+}
+
+#first-cut {
+    background: green;
+    position: fixed;
+    width: 100%
+    height: 100%;
+}
