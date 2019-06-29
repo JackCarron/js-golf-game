@@ -5,16 +5,29 @@ html,body {
 }
 
 .title-bar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     background: url(http://2.bp.blogspot.com/-Df3dFgbBOy8/VEYsmbjzC3I/AAAAAAAAAmw/60BYGW-3tRg/s1600/wood_texture.jpg);
-    position: fixed;
     top: 0px;
     width: 100%;
-    height: 100px;
+    min-height: 100px;
+    text-align: center;
 }
 
-#first-cut {
-    background: green;
-    position: fixed;
-    width: 100%
-    height: 100%;
+.title-bar li {
+    padding: 1em;
+    /*background: white;*/
+    color: yellow;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+    list-style: none;
 }
+
+.title-bar li:nth-child(odd) {    
+    color: red;
+    /*background: lightgray;*/
+}
+
+/* game-wrapper {
+
+} */
